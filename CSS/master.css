@@ -1,3 +1,28 @@
 #ship{
   width: 70%;
+
+}
+#man2{
+display:block;
+margin:auto;
+
+}
+#man3{
+  display:block;
+  margin:auto;
+
+}
+#man1{
+  display:block;
+  margin:auto;
+
+}
+#bank {
+  display:block;
+  margin:auto;
+}
+
+
+#table2 {
+  border:2px solid black;
 }
