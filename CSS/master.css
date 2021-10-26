@@ -1,5 +1,14 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@300&display=swap');
+
+body {
+background-color: #90F5F2;
+
+}
+
 #ship{
   width: 70%;
+  box-shadow: 5px 5px 0px 2px orange;
 
 }
 #man2{
@@ -24,5 +33,33 @@ margin:auto;
 
 
 #table2 {
-  border:2px solid green;
+  border:2px solid rgb(176, 196, 53);
+  border-radius: 20px;
+ width: 30%;
+ float: center;
+ text-align: center;
+
+}
+ 
+ .benny {
+
+font-family: "Noto Sans Mono", sans-serif;
+
+
+ }
+
+ .johnny {
+   font-family: "Noto Sans Mono", sans-serif;
+ }
+
+.jp {
+  font-family: "Ubuntu", sans-serif;
+}
+
+.isa {
+  font-family: "Ubuntu", sans-serif;
+
+}
+.hoax {
+  font-family: "Noto Sans Mono", sans-serif;
 }
