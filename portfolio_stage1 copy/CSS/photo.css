@@ -24,30 +24,6 @@ padding: 5px;
 }
 
 
-footer {
-background-color:rgb(230, 149, 64);
-padding:20px;
-overflow: auto;
-
-}
-.footer_right {
-width: 60%;
-float:right;
-font-family: "Lobster", sans-serif;
-font-size: 20px;
-
-}
-.footer_left {
-width: 40%;
-float: left;
-
-
-}
-.footer_p {
-  font-family: sans-serif;
-  font-size: 15px;
-  padding: 10px;
-}
 
 main{
   clear:both;
@@ -63,14 +39,15 @@ main{
  }
 
  .nav {
-   display:inline;
+   display:inline block;
    width:20%;
 
  }
  .meadow{
    background:url("../assets/carpet.jpg");
-   padding: 100px;
-  
+   width:auto;
+   height:auto;
+
 
  }
 
@@ -103,10 +80,42 @@ main{
 
  }
  .grid_image{
-width:40%;
-height:60%;
+   width:80%;
+   height:auto;
+   margin:10px;
  }
 
  .grid_container{
+   display:grid;
+   grid-template-columns: auto auto auto;
+   grid-column-gap:5px;
+   grid-row-gap: 5px;
+   padding:10px;
+   align-items:center
+ }
 
+
+ footer {
+ background-color:rgb(230, 149, 64);
+ padding:20px;
+ overflow: auto;
+
+ }
+ .footer_right {
+ width: 60%;
+ float:right;
+ font-family: "Lobster", sans-serif;
+ font-size: 20px;
+
+ }
+ .footer_left {
+ width: 40%;
+ float: left;
+
+
+ }
+ .footer_p {
+   font-family: sans-serif;
+   font-size: 15px;
+   padding: 10px;
  }
