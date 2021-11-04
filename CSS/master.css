@@ -23,13 +23,6 @@ border-left: 3px solid;
 padding: 5px;
 }
 
-
-
-
-
-
-
-
 footer {
 background-color:rgb(230, 149, 64);
 padding:20px;
@@ -75,7 +68,7 @@ main{
  }
 .meadow{
   background:url("../assets/flower.JPG");
-  padding: 70px;
+  padding: 200px;
   background-size: cover;
 
 }
