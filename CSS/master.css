@@ -109,9 +109,9 @@ main{
  }
 
  .grid_image{
-   width:80%;
+   width:40%;
    height:auto;
-   margin:10px;
+   margin10%;
 
  }
 
@@ -131,3 +131,19 @@ main{
    height:auto;
 
  }
+ .tinfoil{
+   background:url('../assets/tinfoil.jpg');
+  width:auto;
+  height:auto;
+  padding:10px;
+  background-size:cover;
+
+ }
+
+  .blur{
+    background:url("../assets/blur.jpg");
+    width:auto;
+    height:auto;
+    background-size: 50%;
+
+  }
