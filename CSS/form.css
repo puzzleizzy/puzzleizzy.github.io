@@ -48,12 +48,12 @@ main{
 
  }
 
- .meadow {
+ /* .meadow {
    background:url("../assets/flower.JPG");
    padding: 200px;
    background-size: cover;
 
-}
+} */
 
   .talent h2 {
     text-align: right;
@@ -81,8 +81,10 @@ main{
  box-shadow: 5px 5px 5px rgb(241, 219, 24);
 
  }
+ /* FORM */
 
- .grid_image{
+
+ /* .grid_image{
    width:40%;
    height:auto;
    margin10%;
@@ -97,7 +99,7 @@ main{
    padding:10px;
    align-items:center;
 
-}
+} */
 footer {
 background-color:rgb(230, 149, 64);
 padding:20px;
@@ -119,20 +121,96 @@ float: left;
 
 
 }
-#contact{
-  text-decoration: none;
+/* FORM! */
+input[type=text] {
+  border: none;
+  border-bottom: 5px solid pink;
+  border-radius: 5px;
+
+
+}
+input[type=date] {
+  border: none;
+  border-bottom: 5px solid pink;
+  border-radius: 5px;
+}
+label{
+   color: purple;
+   font-weight: bold;
+   font-style: italic;
+ }
+
+ input[type=submit], input[type=reset]{
+   color:white;
+   padding:10px;
+   background-color:rgb(35, 203, 203);
+   border: 2px solid blue;
+
+ }
+ option {
+   padding: 10px;
+
+ }
+
+ #form_title {
+   margin-bottom: 15px;
+ }
+  form{
+
+    padding: 20px;
+    border:none;
+    border: 5px solid yellow;
+    border-radius: 2px;
+  }
+  input[type=text] {
+    border: none;
+    border-radius: 5px;
+
+
+  }
+  input[type=date] {
+    border: none;
+    border-radius: 5px;
+  }
+  label{
+     color: purple;
+     font-weight: bold;
+     font-style: italic;
+     font-size: 15pt;
+   }
+
+   input[type=submit], input[type=reset]{
+     color:white;
+     padding:10px;
+
+
+   }
+   option {
+     padding: 10px;
+
+   }
+
+   #form_title {
+     margin-bottom: 15px;
+   }
+    form{
+
+      padding: 20px;
+      border:none;
+      border-radius: 2px;
+    }
+/* #contact{
    margin-bottom: 15px;
    color:white;
    padding:20px;
    background-color:rgb(29, 222, 193);
-   border: 2px solid blue;
-   border-radius: 10px 10px 10px 10px;
-
+   border: 2px solid rgba(39, 201, 237, 0.9);
+   border-radius: 10px 10px 10px 10px; */
 
 }
- #contact:hover{
+ /* #contact:hover{
   box-shadow: 5px 5px rgb(227, 207, 22);
- }
+ } */
 
 
 .footer_p {
@@ -164,4 +242,11 @@ float: left;
     height:auto;
     background-size: 50%;
 
+  }
+  .pink {
+    background:url('../assets/pink.jpg');
+   width:auto;
+   height:auto;
+   padding:10px;
+   background-size:cover;
   }
