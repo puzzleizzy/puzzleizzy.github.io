@@ -49,7 +49,7 @@ main{
  }
 
  .meadow {
-   background:url("../assets/flower.JPG");
+   background:url("../assets/background/flower.JPG");
    padding: 200px;
    background-size: cover;
 
@@ -87,6 +87,10 @@ main{
    height:auto;
    margin10%;
 
+ }
+ .bird_grid {
+ rotate: 90deg;
+transform:translate(80px,70px);
  }
 
  .grid_container{
@@ -144,13 +148,13 @@ float: left;
 
 /* background images */
  .jeans{
-   background:url("../assets/jeans.jpg");
+   background:url("../assets/background/jeans.jpg");
    width:auto;
    height:auto;
 
  }
  .tinfoil{
-   background:url('../assets/tinfoil.jpg');
+   background:url('../assets/background/tinfoil.jpg');
   width:auto;
   height:auto;
   padding:10px;
@@ -159,7 +163,7 @@ float: left;
  }
 
   .blur{
-    background:url("../assets/blur.jpg");
+    background:url("../assets/background/blur.jpg");
     width:auto;
     height:auto;
     background-size: 50%;
