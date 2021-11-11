@@ -92,6 +92,12 @@ main{
  rotate: 90deg;
 transform:translate(80px,70px);
  }
+ .egg_grid{
+   rotate: 90deg;
+  transform:translate(80px,70px);
+  padding:20px;
+ }
+
 
  .grid_container{
    display:grid;
