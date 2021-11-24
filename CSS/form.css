@@ -48,12 +48,12 @@ main{
 
  }
 
- /* .meadow {
+  .meadow {
    background:url("../assets/flower.JPG");
    padding: 200px;
    background-size: cover;
 
-} */
+}
 
   .talent h2 {
     text-align: right;
@@ -81,16 +81,17 @@ main{
  box-shadow: 5px 5px 5px rgb(241, 219, 24);
 
  }
+
 #terri{
   width:50%;
   height:70%;
 }
 
 
- /* .grid_image{
+ .grid_image{
    width:40%;
    height:auto;
-   margin10%;
+   margin:10%;
 
  }
 
@@ -102,7 +103,7 @@ main{
    padding:10px;
    align-items:center;
 
-} */
+}
 footer {
 background-color:rgb(230, 149, 64);
 padding:20px;
@@ -224,28 +225,28 @@ label{
 }
 
 /* background images */
- .jeans{
+ /* .jeans{
    background:url("../assets/jeans.jpg");
    width:auto;
    height:auto;
 
- }
- .tinfoil{
+ } */
+ /* .tinfoil{
    background:url('../assets/tinfoil.jpg');
   width:auto;
   height:auto;
   padding:10px;
   background-size:cover;
 
- }
+ } */
 
-  .blur{
+  /* .blur{
     background:url("../assets/blur.jpg");
     width:auto;
     height:auto;
     background-size: 50%;
 
-  }
+  } */
   .pink {
     background:url('../assets/pink.jpg');
    width:auto;
