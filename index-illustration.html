@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="./CSS/master.css">
+    <title> My Personal Corner</title>
+
+  </head>
+  <body>
+    <header>
+      <div class="header">
+      </div>
+      <div class="header_left">
+        <h1>Illustration<h1>
+      </div>
+      <div class="header_right">
+
+        <nav>
+          <ul class="navbar">
+            <li class="nav_first"><a href="./index.html">Home</a></li>
+            <li><a href="./index-photo.html">photography</a></li>
+            <li><a href="./index-illustration.html">Illustration</a></li>
+            <li><a href="./index-anout.html">About</a></li>
+
+
+
+          </ul>
+
+        </nav>
+      </div>
+
+    </header>
+    <section>
+<!-- backimage -->
+    <main class="triangle">
+      <!-- image display -->
+      <section class="four">
+        <div class="row">
+      <div class="column">
+        <img src="./assets/collage/whale.jpg" alt="Whale" style="width:80%" onclick="myFunction(this);">
+      </div>
+      <div class="column">
+        <img src="./assets/collage/last_dwarfs.jpeg" alt="Last Supper" style="width:80%" onclick="myFunction(this);">
+      </div>
+      <div class="column">
+        <div class="ghost">
+          <img src="./assets/collage/ghostbusters1.jpeg" alt="Ghost Busters" style="width:80%" onclick="myFunction(this);">
+        </div>
+      </div>
+      <div class="column">
+        <img src="./assets/collage/airbnb.png" alt="Advertisement" style="width:60%" onclick="myFunction(this);">
+      </div>
+    </div>
+
+    <div class="container">
+      <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+      <img id="expandedImg" style="width:100%">
+      <div id="imgtext"></div>
+    </div>
+
+      <div class="talent">
+
+
+
+    </section>
+
+    <script>
+    function myFunction(imgs) {
+      var expandImg = document.getElementById("expandedImg");
+      var imgText = document.getElementById("imgtext");
+      expandImg.src = imgs.src;
+      imgText.innerHTML = imgs.alt;
+      expandImg.parentElement.style.display = "block";
+    }
+    </script>
+
+
+    </main>
+<footer>
+  <div class="footer_left">
+  <p>&copy; 2021 FIRST Institute</p>
+  <button id="contact" type="button" name="contact"><a href="./index-contact.html">Contact</a></button>
+
+  </div>
+  <div class="footer_right">
+    <h5>ADVENTURE A WAITS!</h5>
+    <div class="footer_p">
+  <p> <span class="nice"> Nice right?</span> There are endless possibilities with imagination with how the world looks in other people eyes. Wanting to get an abstract allusions for you to come up with what the perspective is shown; to not judge but to observe. Thanks for visiting- more too come. </p>
+
+  </div>
+</footer>
+
+
+
+
+  </body>
+</html>
