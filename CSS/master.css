@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Caveat&family=Shadows+Into+Light&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 * {
   margin:0;
 }
@@ -201,11 +202,23 @@ padding:10px;
 }
 .roost{
   transform:rotate(90deg);
-padding:20px;
+padding:30px;
 }
 .zoo {
   transform: rotate(90deg);
-  padding:20px;
+  padding:30px;
+}
+.race{
+transform:scale(1.2);
+}
+.parot{
+  transform:rotate(90deg);
+}
+#album{
+  text-align: center;
+  font-family: 'Bebas Neue', cursive;
+  font-size:40pt;
+  text-decoration: underline green;
 }
 
   .side_left{
