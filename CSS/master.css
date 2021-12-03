@@ -235,6 +235,7 @@ transform:scale(1.2);
   }
 /* illustration */
 .four {
+  display:flex;
    border:5px solid black;
 }
 .closebtn {
@@ -243,7 +244,7 @@ transform:scale(1.2);
   right: 10px;
   color: white;
   font-size: 35px;
-  cursor: pointer;
+  /* cursor: pointer; */
 
 }
 #imgtext {
@@ -254,7 +255,7 @@ transform:scale(1.2);
   font-size: 20px;
 }
 .playboy{
-  transform:rotate(90deg);
+  /* transform:rotate(90deg); */
     filter: grayscale(20%);
 }
 
@@ -392,12 +393,16 @@ background-size: auto;
 }
 
  .triangle {
-   background:url('../assets/collage/triangle.jpeg');
-  width:auto;
+
+   background:url('../assets/collage/triangle.jpeg' );
+  max-width:100%;
   height:auto;
   padding:10px;
   background-size:100%;
-  background-position: top;
+
+
+
+
 
  }
 
