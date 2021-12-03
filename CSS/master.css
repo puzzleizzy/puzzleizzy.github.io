@@ -200,7 +200,7 @@ padding:10px;
   width: 80%;
 
 }
-.roost{
+/* .roost{
   transform:rotate(90deg);
 padding:30px;
 }
@@ -213,7 +213,7 @@ transform:scale(1.2);
 }
 .parot{
   transform:rotate(90deg);
-}
+} */
 #album{
   text-align: center;
   font-family: 'Bebas Neue', cursive;
