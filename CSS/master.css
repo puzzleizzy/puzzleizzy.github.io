@@ -230,6 +230,9 @@ transform:scale(1.2);
    list-style-type: none;
 
   }
+  .contact_photo{
+  align-items: center;
+  }
 /* illustration */
 .four {
    border:5px solid black;
@@ -406,9 +409,18 @@ background-size: auto;
   }
   /* form photo */
   .pink {
-    background:url('../assets/pink.jpg');
+    background:url('../assets/background/pink.jpg');
    width:auto;
    height:auto;
    padding:10px;
    background-size:cover;
+  }
+
+
+
+
+  @media only screen and (max-width:768px) {
+  .photo .all  .india .peter  .tree .nav_bar{
+    width:100%;
+
   }
